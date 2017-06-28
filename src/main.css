@@ -1,0 +1,52 @@
+body, html {
+    height: 100%;
+}
+.header {
+  background: #f05053;
+  background: -webkit-linear-gradient(left top, #e1eec3, #f05053);
+  background: -o-linear-gradient(bottom right, #e1eec3, #f05053);
+  background: -moz-linear-gradient(bottom right, #e1eec3, #f05053);
+  background: linear-gradient(to bottom right, #e1eec3, #f05053);
+  height: 30%;
+  position: relative;
+}
+
+.contents {
+ font-family: 'Merriweather', serif;
+ text-align: center;
+ color: #FFFFFF;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ position: absolute;
+
+}
+.tagline {
+  padding-left: 2%;
+}
+.skills {
+font-family: 'Open Sans', sans-serif;
+/*background-color: #ff5811;*/
+background: #00FF76;
+background: -webkit-linear-gradient(left top, #0cebeb, #20e3b2, #29ffc6);
+background: -o-linear-gradient(bottom right, #0cebeb, #20e3b2, #29ffc6);
+background: -moz-linear-gradient(bottom right, #0cebeb, #20e3b2, #29ffc6);
+background: linear-gradient(to bottom right, #0cebeb, #20e3b2, #29ffc6);
+color: #FFFFFF;
+padding-left: 2%;
+}
+.skill_list{
+  font-weight: bold;
+}
+.contact {
+  padding-left: 2%;
+}
+.contact li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000000;
+}#e1eec3hover {
+  color: blue;
+}
