@@ -47,6 +47,7 @@ padding-left: 2%;
 a {
   text-decoration: none;
   color: #000000;
-}#e1eec3hover {
+}
+a::hover {
   color: blue;
 }
